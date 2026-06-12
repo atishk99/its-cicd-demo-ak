@@ -5,4 +5,3 @@ const server = http.createServer((req, res) => {
   res.end('ITS Tech School — GCP ACE Training v2.0 (auto-deployed!)\n');
 });
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-EOF
